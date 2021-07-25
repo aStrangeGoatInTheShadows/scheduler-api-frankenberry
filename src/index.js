@@ -33,5 +33,7 @@ function updateAppointment(id, interview) {
 }
 
 server.listen(PORT, () => {
-  console.log(`Listening on port ${PORT} in MATT mode.`);
+  console.log(
+    `Listening on port ${PORT} and redirecting traffic to elephantSQL.`
+  );
 });
