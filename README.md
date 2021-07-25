@@ -17,7 +17,7 @@ npm i
 
 Request ENV from @aStrangeGoatInTheShadows for test database
 
-Run a the development server with `npm start` in the Host environment.
+Run the development server with `npm start` in the Host environment.
 Both of these achieve the same result.
 
 - Make a `GET` request to `/api/debug/reset` with `curl http://localhost:8001/api/debug/reset`.
